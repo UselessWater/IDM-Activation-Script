@@ -17,7 +17,7 @@
 右键点击 Windows 开始菜单，选择 **PowerShell** 或 **终端**（不是 CMD），复制以下命令并回车：
 
 ```powershell
-iex(irm https://raw.githubusercontent.com/UselessWater/IDM-Activation-Script/main/IAS.ps1)
+iex(irm https://raw.githubusercontent.com/UselessWater/IDM-Activation-Script/master/IAS.ps1)
 ```
 
 脚本会自动下载并运行，按照屏幕提示操作即可。
