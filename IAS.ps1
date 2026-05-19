@@ -20,7 +20,7 @@ catch {
 
 $ScriptArgs = "$args "
 $prefix = "@REM $rand `r`n"
-$content = $prefix + $response
+$content = $prefix + ($response -replace "`r`n", "`n" -replace "`n", "`r`n")
 Set-Content -Path $FilePath -Value $content
 
 Start-Process $FilePath $ScriptArgs -Wait
